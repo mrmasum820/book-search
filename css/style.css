@@ -1,0 +1,72 @@
+/* Global CSS*/
+h2, h4, h3{
+    color:blue;
+}
+
+/* Search Input Styles */
+.load-spin{
+    width: 50px;
+    height: 50px;
+    color: blue;
+    margin: auto;
+    display: none;
+}
+
+input#search-field {
+    border: 1px solid blue;
+}
+
+button#button-addon2 {
+    background-color: blue;
+    border: 1px solid blue;
+    color: #FFFFFF;
+    transition: .3s;
+    outline: none;
+}
+
+button#button-addon2:hover {
+    background-color: #FFFFFF;
+    color: blue;
+}
+
+button#button-addon2:focus,button#button-addon2:active {
+    box-shadow: none;
+}
+
+input#search-field:focus {
+    box-shadow: none;
+}
+
+/* message Message Area */
+#result-found{
+    color: blue;
+    font-weight: 700;
+}
+
+/* Card Grid Styles */
+.card img {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+.card-body h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.card-body h3 {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.card-body p{
+    font-weight: 700;
+}
+
+.card {
+    border: 1px solid blue;
+    transition: .5s;
+}
